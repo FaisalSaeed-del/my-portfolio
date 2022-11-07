@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero";
 import Resposive from "./components/mobileresponsive/Resposive";
 import Navbar from "./components/navbar/Navbar";
 import Offer from "./components/offer/Offer";
+import Projects from "./components/projects/Projects";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <Offer />
       <Experience />
+      <Projects />
     </div>
   );
 }

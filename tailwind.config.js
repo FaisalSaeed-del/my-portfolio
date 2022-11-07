@@ -9,6 +9,10 @@ module.exports = {
         para: " #999999;",
         cardbg: "rgba(116, 86, 255, 0.1);",
         cardBG: "rgba(19, 19, 19, 0.9);",
+        textcl: "rgba(153, 153, 153, 0.2);",
+      },
+      fontSize: {
+        lg: "200px",
       },
       width: {
         100: "619px",

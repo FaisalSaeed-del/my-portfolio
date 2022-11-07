@@ -17,6 +17,7 @@ body {
 .bg-gradient {
   background: linear-gradient(100.67deg, #0f0f0f 7.93%, #060021 100%);
   opacity: 1;
+  background-repeat: no-repeat;
 }
 .nav-bg {
   background: #0f0f0f;
@@ -25,7 +26,16 @@ body {
 .backgroundimg {
   background-image: url("../src/assets/images/background.png");
   max-width: 1440px;
-  min-height: 440px;
+  height: 440px;
   background-repeat: no-repeat;
   object-fit: cover;
+}
+.pro-bg {
+  background: black;
+  background-repeat: no-repeat;
+}
+.card-bg {
+  background: #131313;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
 }
