@@ -5,13 +5,13 @@ const Projects = () => {
   return (
     <div className="pro-bg">
       <section className="contianer">
-        <div className="relative">
-          <div className="max-w-6xl ">
+        <div className="">
+          {/* <div className="max-w-6xl ">
             <h1 className="text-textcl text-lg font-semibold ">My Project</h1>
-          </div>
-          <div className="absolute bottom-1/2 left-1/2">
+          </div> */}
+          <div className=" p-20">
             <h2 className="text-white text-xl font-semibold text-center">
-              My Projects
+              My Latest Projects
             </h2>
           </div>
         </div>
