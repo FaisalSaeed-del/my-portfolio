@@ -16,61 +16,77 @@ const Projects = () => {
           </div>
         </div>
         <div className="  gap-5 p-10">
-          <div className="flex justify-around  mb-10  card-bg max-w-[1260px] min-h-72">
+          <div className="flex justify-around m-auto  mb-10  card-bg max-w-[1260px] min-h-72">
             <div className="flex gap-5 justify-center p-20  flex-wrap ">
               <div className="">
                 <img className="w-full rounded-md" src={Frame} alt="" />
               </div>
-              <div className="mt-20">
+              <div className=" self-center">
                 <h2 className="text-white text-3xl font-semibold ">
                   DaurUang Mobile Apps
                 </h2>
               </div>
             </div>
-            <div className="w-32 h-[50px] mt-36 flex justify-center bg-purple rounded-md">
+            <div className="self-center  bg-purple py-3 px-3 rounded-md">
               <button className="text-white text-xl font-semibold">
-                View Detail
+                More Projects
               </button>
             </div>
           </div>
           <div className="flex justify-around m-auto  mb-10  card-bg max-w-[1260px] min-h-72">
-            <div className="flex flex-wrap gap-5  justify-center p-20 ">
+            <div className="flex gap-5 justify-center p-20  flex-wrap ">
               <div className="">
                 <img className="w-full rounded-md" src={Frame} alt="" />
               </div>
-              <div className="mt-20">
+              <div className=" self-center">
                 <h2 className="text-white text-3xl font-semibold ">
-                  {" "}
                   DaurUang Mobile Apps
                 </h2>
               </div>
             </div>
-            <div className="w-32 h-[50px] mt-36 flex justify-center bg-purple rounded-md">
+            <div className="self-center  bg-purple py-3 px-3 rounded-md">
               <button className="text-white text-xl font-semibold">
-                View Detail
+                More Projects
               </button>
             </div>
           </div>
-          <div className="flex  justify-around m-auto mb-10  card-bg max-w-[1260px] min-h-72">
-            <div className="flex flex-wrap gap-5 justify-center p-20 ">
+          <div className="flex justify-around m-auto  mb-10  card-bg max-w-[1260px] min-h-72">
+            <div className="flex gap-5 justify-center p-20  flex-wrap ">
               <div className="">
                 <img className="w-full rounded-md" src={Frame} alt="" />
               </div>
-              <div className="mt-20">
+              <div className=" self-center">
                 <h2 className="text-white text-3xl font-semibold ">
-                  {" "}
-                  Ada Mekanik Mobile Apps
+                  DaurUang Mobile Apps
                 </h2>
               </div>
             </div>
-            <div className="w-32 h-[50px] mt-36 flex justify-center bg-purple rounded-md">
+            <div className="self-center  bg-purple py-3 px-3 rounded-md">
               <button className="text-white text-xl font-semibold">
-                View Detail
+                More Projects
               </button>
             </div>
           </div>
-          <div className="flex  justify-around m-auto  card-bg max-w-[1260px] min-h-44">
-            <div className="flex flex-wrap flex-col gap-1 justify-center p-20">
+          <div className="flex justify-around m-auto  mb-10  card-bg max-w-[1260px] min-h-72">
+            <div className="flex gap-5 justify-center p-20  flex-wrap ">
+              <div className="">
+                <img className="w-full rounded-md" src={Frame} alt="" />
+              </div>
+              <div className=" self-center">
+                <h2 className="text-white text-3xl font-semibold ">
+                  DaurUang Mobile Apps
+                </h2>
+              </div>
+            </div>
+            <div className="self-center  bg-purple py-3 px-3 rounded-md">
+              <button className="text-white text-xl font-semibold">
+                More Projects
+              </button>
+            </div>
+          </div>
+
+          <div className="flex py-10 justify-around m-auto flex-wrap  card-bg max-w-[1260px] ">
+            <div className="flex flex-wrap flex-col gap-1 justify-center ">
               <div>
                 <h1 className="text-white text-3xl font-semibold">
                   Have any Project in mind
@@ -82,14 +98,14 @@ const Projects = () => {
                 </h2>
               </div>
             </div>
-            <div className="flex gap-4">
-              <div className="w-40 h-[50px] mt-16 border-2 border-white flex justify-center  rounded-md">
+            <div className="flex self-center gap-4 ">
+              <div className="py-3 px-3 border-2 border-white flex justify-center  rounded-md">
                 <button className="text-white text-xl font-semibold">
                   More Projects
                 </button>
               </div>
-              <div className="w-36 h-[50px] mt-16  flex justify-center bg-purple rounded-md">
-                <button className="text-white text-xl font-semibold">
+              <div className="py-3 px-7 flex justify-center bg-purple rounded-md">
+                <button className="text-white   text-xl font-semibold">
                   Email Me
                 </button>
               </div>

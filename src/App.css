@@ -27,11 +27,14 @@ body {
 .backgroundimg {
   background-image: url("../src/assets/images/background.png");
   width: 100%;
-  min-height: 440px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .pro-bg {
   background: black;
   background-repeat: no-repeat;
+  width: 100%;
 }
 .card-bg {
   background: #131313;

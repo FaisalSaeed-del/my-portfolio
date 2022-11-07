@@ -1,5 +1,6 @@
 import "./App.css";
 import Experience from "./components/experience/Experience";
+import Footer from "./components/footer/Footer";
 import Hero from "./components/hero/Hero";
 import HireMe from "./components/hireme/HireMe";
 import Resposive from "./components/mobileresponsive/Resposive";
@@ -25,6 +26,7 @@ function App() {
       <HireMe />
       <Testimonail />
       <Skills />
+      <Footer />
     </div>
   );
 }

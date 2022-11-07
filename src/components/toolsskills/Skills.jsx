@@ -9,35 +9,27 @@ const Skills = () => {
   return (
     <div className="pro-bg">
       <section className="container">
-        <div>
+        <div className="p-20">
           <div className="flex justify-center">
-            <h1 className="text-white">Tools and Skills</h1>
+            <h1 className="text-white text-4xl font-semibold">
+              Tools and Skills
+            </h1>
           </div>
-          <div className="p-20 flex justify-center gap-3">
-            <div className="bg-slate-900  max-w-[182px] min-h-[182px] rounded-md ">
-              <div className="">
-                <img src={Figma} alt="" />
-              </div>
+          <div className="flex justify-around flex-wrap p-16">
+            <div className="bg-slate-900   max-w-[182px] rounded-md ">
+              <img className="w-[100%] " src={Figma} alt="" />
             </div>
-            <div className="bg-slate-900  max-w-[182px] min-h-[182px] rounded-md ">
-              <div className="">
-                <img src={PSD} alt="" />
-              </div>
+            <div className="bg-slate-900   max-w-[182px] rounded-md ">
+              <img className="w-[100%] " src={PSD} alt="" />
             </div>
-            <div className="bg-slate-900  max-w-[182px] min-h-[182px] rounded-md ">
-              <div className="">
-                <img src={CSS} alt="" />
-              </div>
+            <div className="bg-slate-900   max-w-[182px] rounded-md ">
+              <img className="w-[100%] " src={HTML} alt="" />
             </div>
-            <div className="bg-slate-900  max-w-[182px] min-h-[182px] rounded-md ">
-              <div className="">
-                <img src={HTML} alt="" />
-              </div>
+            <div className="bg-slate-900   max-w-[182px] rounded-md ">
+              <img className="w-[100%] " src={CSS} alt="" />
             </div>
-            <div className="bg-slate-900  max-w-[182px] min-h-[182px] rounded-md ">
-              <div className="">
-                <img src={XML} alt="" />
-              </div>
+            <div className="bg-slate-900   max-w-[182px] rounded-md ">
+              <img className="w-[100%] " src={XML} alt="" />
             </div>
           </div>
         </div>
