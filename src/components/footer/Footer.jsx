@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="pro-bg">
       <section className="container">
-        <div className="p-10 ">
+        <div className="py-20 px-20 ">
           <div className="sub-footer">
             <div className="">
               <div className="max-w-[228px] mb-8  ">
@@ -22,10 +22,20 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex justify-between flex-wrap">
-              <div className="pt-32">
+              <div className="pt-20">
                 <div className="flex items-center gap-10 mb-4">
                   <div>
                     <img src={Phone} alt="" />
+                  </div>
+                  <div>
+                    <span className="text-gray-400 text-base font-normal">
+                      0300-8384002
+                    </span>
+                  </div>
+                </div>
+                <div className="flex items-center gap-10 mb-4">
+                  <div>
+                    <img src={Location} alt="" />
                   </div>
                   <div>
                     <span className="text-gray-400 text-base font-normal">
@@ -39,23 +49,13 @@ const Footer = () => {
                   </div>
                   <div>
                     <span className="text-gray-400 text-base font-normal">
-                      mianfasi421@gmail.com
-                    </span>
-                  </div>
-                </div>
-                <div className="flex items-center gap-10">
-                  <div>
-                    <img src={Location} alt="" />
-                  </div>
-                  <div>
-                    <span className="text-gray-400 text-base font-normal">
-                      Faisalabad
+                      0300-8384002
                     </span>
                   </div>
                 </div>
               </div>
               <div>
-                <img src={Fpg} alt="" />
+                <img src={Fpg} alt="" width="100%" />
               </div>
             </div>
           </div>

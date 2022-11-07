@@ -15,8 +15,19 @@ const Skills = () => {
               Tools and Skills
             </h1>
           </div>
-          <div className="">
-            <img className=" bg-red-500 " src={Figma} alt="" />
+          <div className="flex flex-wrap justify-around py-16">
+            <div>
+              <img className="" src={Figma} alt="" />
+            </div>
+            <div>
+              <img className="" src={PSD} alt="" />
+            </div>
+            <div>
+              <img className="" src={HTML} alt="" />
+            </div>
+            <div>
+              <img className="" src={XML} alt="" />
+            </div>
           </div>
         </div>
       </section>

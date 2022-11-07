@@ -19,9 +19,9 @@ const Testimonail = () => {
             </div>
           </div>
 
-          <div className="flex justify-center items-center gap-10 pt-20">
+          <div className="flex flex-wrap justify-center items-center gap-10 pt-20">
             <div className="bg-black border-2 rounded-md">
-              <img src={Mask} alt="" />
+              <img src={Mask} alt="" className="w-full" />
             </div>
             <div className="flex flex-col gap-3">
               <div className="max-w-[618px]">
