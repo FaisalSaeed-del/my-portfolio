@@ -13,89 +13,85 @@ const HireMe = () => {
             <h1 className="text-white  text-4xl font-semibold">Why Hire Me</h1>
           </div>
         </div>
-        <div className="flex justify-center flex-wrap gap-32 pt-32">
-          <div className="border-2 max-w-[200px] border-gray-400  rounded-full p-10">
-            <div className=" flex justify-center p-6  max-w-[198px] border-purple border-2 rounded-full">
-              <div className="m-auto">
-                <img src={Time} alt="" />{" "}
+        <div className="flex justify-around flex-wrap py-10">
+          <div className="flex flex-col gap-8 items-center">
+            <div className="flex flex-wrap">
+              <div className="border-2 py-4 px-4  border-gray-400  rounded-full ">
+                <div className=" p-5 border-purple border-2 rounded-full">
+                  <div className="m-auto">
+                    <img className="" src={Time} alt="" />{" "}
+                  </div>
+                </div>
               </div>
+            </div>
+            <div>
+              <h1 className="text-white font-semibold text-3xl">Hello World</h1>
+            </div>
+            <div className="max-w-[258px]">
+              <p className="text-gray-400 font-normal text-base ">
+                I’m a kind of person who can’t just stand around and doing
+                nothing. I have a tendency to do something productive.
+              </p>
             </div>
           </div>
-          <div className="border-2 max-w-[200px] border-gray-400  rounded-full p-10">
-            <div className=" flex justify-center p-6  max-w-[198px] border-purple border-2 rounded-full">
-              <div className="m-auto">
-                <img src={MSG} alt="" />{" "}
+          <div className="flex flex-col gap-8 items-center">
+            <div className="flex flex-wrap">
+              <div className="border-2 py-4 px-4  border-gray-400  rounded-full ">
+                <div className=" p-5 border-purple border-2 rounded-full">
+                  <div className="m-auto">
+                    <img className="" src={Time} alt="" />{" "}
+                  </div>
+                </div>
               </div>
+            </div>
+            <div>
+              <h1 className="text-white font-semibold text-3xl">Hello World</h1>
+            </div>
+            <div className="max-w-[258px]">
+              <p className="text-gray-400 font-normal text-base ">
+                I’m a kind of person who can’t just stand around and doing
+                nothing. I have a tendency to do something productive.
+              </p>
             </div>
           </div>
-          <div className="border-2 max-w-[200px] border-gray-400  rounded-full p-10">
-            <div className=" flex justify-center p-6  max-w-[198px] border-purple border-2 rounded-full">
-              <div className="m-auto">
-                <img src={Thumb} alt="" />{" "}
+          <div className="flex flex-col gap-8 items-center">
+            <div className="flex flex-wrap">
+              <div className="border-2 py-4 px-4  border-gray-400  rounded-full ">
+                <div className=" p-5 border-purple border-2 rounded-full">
+                  <div className="m-auto">
+                    <img className="" src={Time} alt="" />{" "}
+                  </div>
+                </div>
               </div>
+            </div>
+            <div>
+              <h1 className="text-white font-semibold text-3xl">Hello World</h1>
+            </div>
+            <div className="max-w-[258px]">
+              <p className="text-gray-400 font-normal text-base ">
+                I’m a kind of person who can’t just stand around and doing
+                nothing. I have a tendency to do something productive.
+              </p>
             </div>
           </div>
-          <div className="border-2 max-w-[200px] border-gray-400  rounded-full p-10">
-            <div className=" flex justify-center p-6  max-w-[198px] border-purple border-2 rounded-full">
-              <div className="m-auto">
-                <img src={Tick} alt="" />{" "}
+          <div className="flex flex-col gap-8 items-center">
+            <div className="flex flex-wrap">
+              <div className="border-2 py-4 px-4  border-gray-400  rounded-full ">
+                <div className=" p-5 border-purple border-2 rounded-full">
+                  <div className="m-auto">
+                    <img className="" src={Time} alt="" />{" "}
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="pt-16">
-          <div className="flex justify-center gap-16">
-            <div className="flex flex-col gap-3 ">
-              <div className="max-w-[175px]">
-                <h2 className="text-white text-3xl font-medium text-center">
-                  Workholic
-                </h2>
-              </div>
-              <div className="max-w-[258px]">
-                <p className="text-white text-base font-normal">
-                  I’m a kind of person who can’t just stand around and doing
-                  nothing. I have a tendency to do something productive.
-                </p>
-              </div>
+            <div>
+              <h1 className="text-white font-semibold text-3xl">Hello World</h1>
             </div>
-            <div className="flex flex-col gap-3 ">
-              <div className="max-w-[175px]">
-                <h2 className="text-white text-3xl font-medium text-center">
-                  Workholic
-                </h2>
-              </div>
-              <div className="max-w-[258px]">
-                <p className="text-white text-base font-normal">
-                  I’m a kind of person who can’t just stand around and doing
-                  nothing. I have a tendency to do something productive.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col gap-3 ">
-              <div className="max-w-[175px]">
-                <h2 className="text-white text-3xl font-medium text-center">
-                  Workholic
-                </h2>
-              </div>
-              <div className="max-w-[258px]">
-                <p className="text-white text-base font-normal">
-                  I’m a kind of person who can’t just stand around and doing
-                  nothing. I have a tendency to do something productive.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col  gap-3 ">
-              <div className="max-w-[175px]">
-                <h2 className="text-white text-3xl font-medium text-center">
-                  Workholic
-                </h2>
-              </div>
-              <div className="max-w-[258px]">
-                <p className="text-white text-base font-normal">
-                  I’m a kind of person who can’t just stand around and doing
-                  nothing. I have a tendency to do something productive.
-                </p>
-              </div>
+            <div className="max-w-[258px]">
+              <p className="text-gray-400 font-normal text-base ">
+                I’m a kind of person who can’t just stand around and doing
+                nothing. I have a tendency to do something productive.
+              </p>
             </div>
           </div>
         </div>

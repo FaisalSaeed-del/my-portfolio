@@ -59,28 +59,28 @@ const Hero = () => {
               <img src={Img1} alt="" />
             </div>
             <div className="flex justify-between flex-wrap">
-              <div className="w-28 pt-4">
+              <div className="self-center">
                 <span className="text-white text-xl font-semibold">
                   Find Me on
                 </span>
               </div>
               <div className="flex justify-center  border rounded-full w-14 h-14 ">
-                <a className="text-purple pt-5 w-4">
+                <a className="text-purple py-4 text-2xl">
                   <FaFacebookF />
                 </a>
               </div>
               <div className="flex justify-center  border rounded-full w-14 h-14 ">
-                <a className="text-purple pt-5 w-4">
+                <a className="text-purple py-4 text-2xl">
                   <AiFillInstagram />
                 </a>
               </div>
               <div className="flex justify-center  border rounded-full w-14 h-14 ">
-                <a className="text-purple pt-5 w-4">
+                <a className="text-purple py-4 text-2xl">
                   <RiWhatsappFill />
                 </a>
               </div>
               <div className="flex justify-center  border rounded-full w-14 h-14 ">
-                <a className="text-purple pt-5 w-4">
+                <a className="text-purple py-4 text-2xl">
                   <FaLinkedinIn />
                 </a>
               </div>

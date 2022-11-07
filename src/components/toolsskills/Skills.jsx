@@ -9,28 +9,14 @@ const Skills = () => {
   return (
     <div className="pro-bg">
       <section className="container">
-        <div className="p-20">
+        <div className="pt-20">
           <div className="flex justify-center">
             <h1 className="text-white text-4xl font-semibold">
               Tools and Skills
             </h1>
           </div>
-          <div className="flex justify-around flex-wrap p-16">
-            <div className="bg-slate-900   max-w-[182px] rounded-md ">
-              <img className="w-[100%] " src={Figma} alt="" />
-            </div>
-            <div className="bg-slate-900   max-w-[182px] rounded-md ">
-              <img className="w-[100%] " src={PSD} alt="" />
-            </div>
-            <div className="bg-slate-900   max-w-[182px] rounded-md ">
-              <img className="w-[100%] " src={HTML} alt="" />
-            </div>
-            <div className="bg-slate-900   max-w-[182px] rounded-md ">
-              <img className="w-[100%] " src={CSS} alt="" />
-            </div>
-            <div className="bg-slate-900   max-w-[182px] rounded-md ">
-              <img className="w-[100%] " src={XML} alt="" />
-            </div>
+          <div className="">
+            <img className=" bg-red-500 " src={Figma} alt="" />
           </div>
         </div>
       </section>

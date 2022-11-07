@@ -15,8 +15,8 @@ const Projects = () => {
             </h2>
           </div>
         </div>
-        <div className="  gap-5 p-10">
-          <div className="flex justify-around m-auto  mb-10  card-bg max-w-[1260px] min-h-72">
+        <div className="p-10">
+          <div className="flex justify-around m-auto  mb-10 flex-wrap  card-bg max-w-[1260px] min-h-72">
             <div className="flex gap-5 justify-center p-20  flex-wrap ">
               <div className="">
                 <img className="w-full rounded-md" src={Frame} alt="" />
@@ -33,7 +33,7 @@ const Projects = () => {
               </button>
             </div>
           </div>
-          <div className="flex justify-around m-auto  mb-10  card-bg max-w-[1260px] min-h-72">
+          <div className="flex justify-around m-auto  mb-10 flex-wrap  card-bg max-w-[1260px] min-h-72">
             <div className="flex gap-5 justify-center p-20  flex-wrap ">
               <div className="">
                 <img className="w-full rounded-md" src={Frame} alt="" />
@@ -50,7 +50,7 @@ const Projects = () => {
               </button>
             </div>
           </div>
-          <div className="flex justify-around m-auto  mb-10  card-bg max-w-[1260px] min-h-72">
+          <div className="flex justify-around m-auto  mb-10 flex-wrap  card-bg max-w-[1260px] min-h-72">
             <div className="flex gap-5 justify-center p-20  flex-wrap ">
               <div className="">
                 <img className="w-full rounded-md" src={Frame} alt="" />
@@ -67,7 +67,7 @@ const Projects = () => {
               </button>
             </div>
           </div>
-          <div className="flex justify-around m-auto  mb-10  card-bg max-w-[1260px] min-h-72">
+          <div className="flex justify-around m-auto  mb-10 flex-wrap  card-bg max-w-[1260px] min-h-72">
             <div className="flex gap-5 justify-center p-20  flex-wrap ">
               <div className="">
                 <img className="w-full rounded-md" src={Frame} alt="" />

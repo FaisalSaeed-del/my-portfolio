@@ -21,8 +21,8 @@ const Offer = () => {
             </div>
           </div>
         </div>
-        <div className="p-20">
-          <div className="flex justify-around flex-wrap">
+        <div className="py-20">
+          <div className="flex justify-around flex-wrap ">
             <div className="border-purple rounded-md border-2 w-[364px] h-[364px] bg-cardbg flex flex-col justify-center  ">
               <div className="w-[100%] flex justify-center">
                 <img src={Content} alt="" />
